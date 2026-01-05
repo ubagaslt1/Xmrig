@@ -1,0 +1,17 @@
+id: xmrig-gui
+name: XMRig GUI Miner
+tagline: Monero CPU Miner with Web Dashboard
+category: Utilities
+version: 1.0.0
+description: |
+  A user-friendly CPU miner for Monero (XMR) with web interface.
+  Perfect for utilizing idle CPU cores. Configure your wallet and pool settings easily.
+developer: YourName
+website: https://github.com/xmrig/xmrig
+repo: https://github.com/ubagaslt1/Xmrig
+port: 3000
+path: /xmrig
+dependencies: []
+permissions:
+  - sys_admin
+  - sys_nice
